@@ -1,0 +1,10 @@
+
+
+<ul class="container" [ngClass]="{'display-false': tradeClass}">
+  <li><span>Id:</span> {{colaborator?.id}}</li>
+  <li><span>Nome:</span>  {{colaborator?.nome}}</li>
+  <li><span>Salário:</span>  {{colaborator?.salario}}</li>
+  <li><span>Cargo:</span>  {{colaborator?.cargo}}</li>
+  <li class="butao"><button (click)="deleteColaborator()">Excluir</button>
+    <button id="trade" (click)="eventTrade()">{{textButton}}</button></li>
+</ul>

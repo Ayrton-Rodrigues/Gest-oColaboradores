@@ -1,0 +1,43 @@
+.container{
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px;
+  border: 1px solid #E1EAFF;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 4px black;
+}
+
+.container li{
+  padding-bottom: 10px;  
+  width: 200px;
+  
+}
+
+.butao{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+.butao button{
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: rgba(0,0,0,0);
+  background-color: #e1eaff88;
+  padding: 6px;
+}
+
+.display-false{
+  background-color: rgba(0,0,0,0.5);
+ text-decoration: line-through;
+}
+
+span {
+  font-weight: 700;
+  margin-left: 6px;
+}
+

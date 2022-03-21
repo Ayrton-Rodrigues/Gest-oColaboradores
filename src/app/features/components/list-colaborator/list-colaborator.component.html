@@ -1,0 +1,9 @@
+<h1>Lista de colaboradores</h1>
+<section class="container-main">
+  <div class="img"><img src="https://humanus.net.br/site/wp-content/uploads/2021/01/engajamento-da-equipe-1024x630.png" alt="colaboradores"></div>
+  <div class="container">
+    <input type="text" placeholder="Procure um colaborador" (keyup)="searchColaborator($event)">
+    <app-colaborator *ngFor="let item of searchColaborators" [colaborator]="item"></app-colaborator>
+    <h1 appErrorRed *ngIf="search">Colaborador não encontrado!</h1>
+  </div>
+</section>
