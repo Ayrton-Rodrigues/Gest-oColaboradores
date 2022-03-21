@@ -17,7 +17,7 @@ export class ColaboratorComponent implements OnInit {
     alert(`${this.colaborator?.nome}, foi excluído com sucesso.`)
   }
 
-  textButton = 'Disponível'
+  textButton = 'Solicitar'
 
   tradeClass = false
   trade = document.getElementById('trade')
