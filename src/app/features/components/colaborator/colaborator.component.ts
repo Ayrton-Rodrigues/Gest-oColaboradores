@@ -27,7 +27,7 @@ export class ColaboratorComponent implements OnInit {
     if(this.tradeClass === true){
       this.textButton = 'Indisponível'
     }else {
-      this.textButton = 'Disponível'
+      this.textButton = 'Solicitar'
     }
   }
 
